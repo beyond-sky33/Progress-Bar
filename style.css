@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#downloadcapsule {
+    width: 300px;
+    height: 10px;
+    background-color: #dadada;
+    border-radius: 100px;
+}
+
+#progress {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(33, 158, 33);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) .2s;
+    border-radius: 100px;
+}
+
+#center h3{
+    font-family: 700;
+    opacity: 0;
+}
